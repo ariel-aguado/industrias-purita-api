@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productos",
+  "info": {
+    "name": "Productos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "uso": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "detalles": {
+      "type": "richtext",
+      "required": true
+    },
+    "caracteristicas": {
+      "type": "json",
+      "required": true
+    },
+    "historia": {
+      "type": "richtext",
+      "required": true
+    },
+    "culinaria": {
+      "type": "richtext",
+      "required": true
+    },
+    "propiedades": {
+      "type": "richtext",
+      "required": true
+    },
+    "activo": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "icono": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
