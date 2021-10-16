@@ -55,7 +55,19 @@
     "icono": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "etiqueta": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
