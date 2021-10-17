@@ -19,7 +19,8 @@
         "Sabor",
         "Aroma",
         "Hoja",
-        "Forma"
+        "Forma",
+        "Sazon"
       ],
       "required": true
     },
