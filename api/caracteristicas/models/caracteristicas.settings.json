@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "caracteristicas",
+  "info": {
+    "name": "Caracteristicas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "enumeration",
+      "enum": [
+        "Color",
+        "Sabor",
+        "Aroma",
+        "Hoja",
+        "Forma"
+      ],
+      "required": true
+    },
+    "descripcion": {
+      "type": "string",
+      "required": true
+    },
+    "icono": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "producto": {
+      "via": "caracteristicas",
+      "model": "productos"
+    }
+  }
+}

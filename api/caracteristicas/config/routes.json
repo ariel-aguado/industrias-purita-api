@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/caracteristicas",
+      "handler": "caracteristicas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/caracteristicas/count",
+      "handler": "caracteristicas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/caracteristicas/:id",
+      "handler": "caracteristicas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/caracteristicas",
+      "handler": "caracteristicas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/caracteristicas/:id",
+      "handler": "caracteristicas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/caracteristicas/:id",
+      "handler": "caracteristicas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

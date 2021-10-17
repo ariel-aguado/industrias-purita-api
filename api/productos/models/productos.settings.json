@@ -31,10 +31,6 @@
       "type": "richtext",
       "required": true
     },
-    "caracteristicas": {
-      "type": "json",
-      "required": true
-    },
     "historia": {
       "type": "richtext",
       "required": true
@@ -71,6 +67,10 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "caracteristicas": {
+      "via": "producto",
+      "collection": "caracteristicas"
     }
   }
 }
