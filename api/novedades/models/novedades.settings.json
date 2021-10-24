@@ -48,6 +48,10 @@
       "collection": "productos",
       "via": "novedades",
       "dominant": true
+    },
+    "activa": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
