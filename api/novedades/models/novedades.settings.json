@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "novedades",
+  "info": {
+    "name": "Novedades",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "richtext",
+      "required": true
+    },
+    "icono": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "posicion": {
+      "type": "integer",
+      "required": true
+    },
+    "productos": {
+      "collection": "productos",
+      "via": "novedades",
+      "dominant": true
+    }
+  }
+}

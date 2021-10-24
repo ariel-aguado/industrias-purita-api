@@ -71,6 +71,10 @@
     "caracteristicas": {
       "via": "producto",
       "collection": "caracteristicas"
+    },
+    "novedades": {
+      "via": "productos",
+      "collection": "novedades"
     }
   }
 }
