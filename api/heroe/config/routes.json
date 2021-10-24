@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/heroes",
+      "handler": "heroe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/heroes/count",
+      "handler": "heroe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/heroes/:id",
+      "handler": "heroe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/heroes",
+      "handler": "heroe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/heroes/:id",
+      "handler": "heroe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/heroes/:id",
+      "handler": "heroe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
