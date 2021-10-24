@@ -27,7 +27,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     },
     "imagen": {
@@ -37,7 +37,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     },
     "posicion": {
@@ -45,8 +45,8 @@
       "required": true
     },
     "productos": {
-      "collection": "productos",
       "via": "novedades",
+      "collection": "productos",
       "dominant": true
     },
     "activa": {

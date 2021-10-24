@@ -37,12 +37,12 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     },
     "productos": {
-      "collection": "productos",
       "via": "heroes",
+      "collection": "productos",
       "dominant": true
     },
     "activo": {
