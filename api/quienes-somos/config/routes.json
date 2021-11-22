@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/quienes-somos",
+      "handler": "quienes-somos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/quienes-somos",
+      "handler": "quienes-somos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/quienes-somos",
+      "handler": "quienes-somos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
