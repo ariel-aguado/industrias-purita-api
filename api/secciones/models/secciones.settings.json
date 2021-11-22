@@ -49,11 +49,6 @@
       "required": false,
       "pluginOptions": {}
     },
-    "productos": {
-      "collection": "productos",
-      "via": "secciones",
-      "dominant": true
-    },
     "activa": {
       "type": "boolean"
     }

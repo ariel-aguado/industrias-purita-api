@@ -72,9 +72,8 @@
       "via": "producto",
       "collection": "caracteristicas"
     },
-    "secciones": {
-      "via": "productos",
-      "collection": "secciones"
+    "receta": {
+      "model": "recetas"
     }
   }
 }
