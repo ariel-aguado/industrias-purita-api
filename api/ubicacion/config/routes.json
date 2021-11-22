@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ubicacion",
+      "handler": "ubicacion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ubicacion",
+      "handler": "ubicacion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ubicacion",
+      "handler": "ubicacion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
