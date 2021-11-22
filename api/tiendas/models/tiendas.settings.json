@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tiendas",
+  "info": {
+    "name": "Tiendas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "latitud": {
+      "type": "float",
+      "required": true
+    },
+    "longitud": {
+      "type": "float",
+      "required": true
+    },
+    "color": {
+      "type": "string"
+    },
+    "icono": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
