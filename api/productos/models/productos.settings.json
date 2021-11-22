@@ -78,6 +78,10 @@
     "hero": {
       "via": "productos",
       "model": "heroes"
+    },
+    "novedade": {
+      "via": "productos",
+      "model": "novedades"
     }
   }
 }
