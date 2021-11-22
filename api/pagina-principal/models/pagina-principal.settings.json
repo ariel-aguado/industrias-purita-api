@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_principals",
+  "info": {
+    "name": "Pagina principal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "model": "heroes"
+    },
+    "novedades": {
+      "collection": "novedades"
+    },
+    "productos": {
+      "collection": "productos"
+    },
+    "tiendas": {
+      "collection": "tiendas"
+    }
+  }
+}
