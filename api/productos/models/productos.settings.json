@@ -72,10 +72,6 @@
       "via": "producto",
       "collection": "caracteristicas"
     },
-    "heroes": {
-      "via": "productos",
-      "collection": "heroe"
-    },
     "secciones": {
       "via": "productos",
       "collection": "secciones"
