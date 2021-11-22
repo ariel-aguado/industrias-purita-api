@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comentarios",
+  "info": {
+    "name": "Comentarios"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "comentario": {
+      "type": "richtext",
+      "required": true
+    },
+    "autor": {
+      "type": "string",
+      "required": false
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
