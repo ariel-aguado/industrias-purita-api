@@ -74,6 +74,10 @@
     },
     "receta": {
       "model": "recetas"
+    },
+    "hero": {
+      "via": "productos",
+      "model": "heroes"
     }
   }
 }
