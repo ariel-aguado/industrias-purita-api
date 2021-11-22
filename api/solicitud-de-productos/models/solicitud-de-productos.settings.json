@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "solicitud_de_productos",
   "info": {
-    "name": "Solicitud de productos",
+    "name": "Solicitud",
     "description": ""
   },
   "options": {
