@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "solicitud_de_productos",
+  "info": {
+    "name": "Solicitud de productos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "subtitulo": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
