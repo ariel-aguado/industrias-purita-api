@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recetas",
+  "info": {
+    "name": "Recetas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "richtext",
+      "required": true
+    },
+    "ingredientes": {
+      "type": "richtext",
+      "required": true
+    },
+    "preparacion": {
+      "type": "richtext",
+      "required": true
+    },
+    "valores": {
+      "type": "richtext",
+      "required": true
+    },
+    "tiempo": {
+      "type": "string"
+    },
+    "modo": {
+      "type": "string"
+    },
+    "porciones": {
+      "type": "string"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
