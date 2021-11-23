@@ -35,8 +35,8 @@
       "pluginOptions": {}
     },
     "productos": {
-      "collection": "productos",
-      "via": "hero"
+      "via": "hero",
+      "collection": "productos"
     }
   }
 }

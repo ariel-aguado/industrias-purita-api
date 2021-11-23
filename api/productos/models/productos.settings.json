@@ -82,6 +82,9 @@
     "novedade": {
       "via": "productos",
       "model": "novedades"
+    },
+    "precio": {
+      "type": "decimal"
     }
   }
 }

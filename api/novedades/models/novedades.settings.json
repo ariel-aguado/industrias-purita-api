@@ -40,8 +40,8 @@
       "pluginOptions": {}
     },
     "productos": {
-      "collection": "productos",
-      "via": "novedade"
+      "via": "novedade",
+      "collection": "productos"
     },
     "posicion": {
       "type": "integer"
