@@ -29,24 +29,24 @@
     },
     "detalles": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "historia": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "culinaria": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "propiedades": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "activo": {
       "type": "boolean",
       "default": true,
-      "required": true
+      "required": false
     },
     "icono": {
       "model": "file",
@@ -55,7 +55,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "etiqueta": {
@@ -65,7 +65,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "caracteristicas": {
@@ -84,7 +84,8 @@
       "model": "novedades"
     },
     "precio": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true
     }
   }
 }
