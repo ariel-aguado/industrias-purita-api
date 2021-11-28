@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "preguntas_frecuentes",
+  "info": {
+    "name": "Preguntas frecuentes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "subtitulo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
