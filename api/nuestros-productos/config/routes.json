@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nuestros-productos",
+      "handler": "nuestros-productos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nuestros-productos",
+      "handler": "nuestros-productos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nuestros-productos",
+      "handler": "nuestros-productos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
