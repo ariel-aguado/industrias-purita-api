@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "heroes",
+  "collectionName": "inicios",
   "info": {
-    "name": "Heroes"
+    "name": "Inicios",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,13 +17,16 @@
       "required": true
     },
     "subtitulo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "descripcion": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "accion": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "imagen": {
       "model": "file",
@@ -31,12 +35,12 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "productos": {
-      "via": "hero",
-      "collection": "productos"
+      "collection": "productos",
+      "via": "inicio"
     }
   }
 }

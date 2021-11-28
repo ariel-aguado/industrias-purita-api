@@ -75,10 +75,6 @@
     "receta": {
       "model": "recetas"
     },
-    "hero": {
-      "via": "productos",
-      "model": "heroes"
-    },
     "novedade": {
       "via": "productos",
       "model": "novedades"
@@ -86,6 +82,10 @@
     "precio": {
       "type": "decimal",
       "required": true
+    },
+    "inicio": {
+      "via": "productos",
+      "model": "inicios"
     }
   }
 }

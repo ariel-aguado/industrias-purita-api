@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "pagina_principals",
   "info": {
-    "name": "Pagina principal"
+    "name": "Pagina principal",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,8 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hero": {
-      "model": "heroes"
+    "inicio": {
+      "model": "inicios"
     },
     "novedades": {
       "collection": "novedades"
@@ -20,8 +21,8 @@
     "productos": {
       "collection": "productos"
     },
-    "tiendas": {
-      "collection": "tiendas"
+    "tipos_de_tiendas": {
+      "collection": "tipos-de-tienda"
     }
   }
 }

@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/heroes",
-      "handler": "heroes.find",
+      "path": "/inicios",
+      "handler": "inicios.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/heroes/count",
-      "handler": "heroes.count",
+      "path": "/inicios/count",
+      "handler": "inicios.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/heroes/:id",
-      "handler": "heroes.findOne",
+      "path": "/inicios/:id",
+      "handler": "inicios.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/heroes",
-      "handler": "heroes.create",
+      "path": "/inicios",
+      "handler": "inicios.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/heroes/:id",
-      "handler": "heroes.update",
+      "path": "/inicios/:id",
+      "handler": "inicios.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/heroes/:id",
-      "handler": "heroes.delete",
+      "path": "/inicios/:id",
+      "handler": "inicios.delete",
       "config": {
         "policies": []
       }
