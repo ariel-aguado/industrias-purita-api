@@ -27,6 +27,10 @@
     "tipos_de_tienda": {
       "model": "tipos-de-tienda",
       "via": "tiendas"
+    },
+    "activa": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
