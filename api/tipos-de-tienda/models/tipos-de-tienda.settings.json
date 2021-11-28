@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipos_de_tiendas",
+  "info": {
+    "name": "Tipos de tienda"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "icono": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "color_primario": {
+      "type": "string",
+      "required": true
+    },
+    "color_secundario": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

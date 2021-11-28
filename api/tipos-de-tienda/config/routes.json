@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tipos-de-tiendas",
+      "handler": "tipos-de-tienda.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipos-de-tiendas/count",
+      "handler": "tipos-de-tienda.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipos-de-tiendas/:id",
+      "handler": "tipos-de-tienda.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tipos-de-tiendas",
+      "handler": "tipos-de-tienda.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tipos-de-tiendas/:id",
+      "handler": "tipos-de-tienda.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tipos-de-tiendas/:id",
+      "handler": "tipos-de-tienda.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
