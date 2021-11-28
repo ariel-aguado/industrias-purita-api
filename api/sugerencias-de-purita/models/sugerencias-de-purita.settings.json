@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "sugerencias_de_puritas",
+  "info": {
+    "name": "Sugerencias de Purita"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "subtitulo": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "richtext",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sugerencias-de-purita",
+      "handler": "sugerencias-de-purita.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sugerencias-de-purita",
+      "handler": "sugerencias-de-purita.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sugerencias-de-purita",
+      "handler": "sugerencias-de-purita.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
