@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "tiendas",
   "info": {
-    "name": "Tiendas"
+    "name": "Tiendas",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -23,18 +24,9 @@
       "type": "float",
       "required": true
     },
-    "color": {
-      "type": "string"
-    },
-    "icono": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "tipos_de_tienda": {
+      "model": "tipos-de-tienda",
+      "via": "tiendas"
     }
   }
 }

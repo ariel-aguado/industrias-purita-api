@@ -32,6 +32,10 @@
     "color_secundario": {
       "type": "string",
       "required": true
+    },
+    "tiendas": {
+      "via": "tipos_de_tienda",
+      "collection": "tiendas"
     }
   }
 }
